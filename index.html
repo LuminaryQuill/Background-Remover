@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove Image Background</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/*" href="icon.png">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+
+        
+        <div class="content">
+            <div class="head">
+                <i class="fa-solid fa-camera-retro"></i>
+                <h1 class="head-text">Remove Image Background 100% Free automatically in 5 seconds with one click</h1>
+            </div>
+            <p>Erase image backgrounds for free and effortlessly </p>
+            <form id="imageForm">
+                <input type="file" id="imageInput" accept="image/*" />
+                <button type="submit" id="btnRmbg">Remove Background</button>
+            </form>
+        </div>
+        
+        <video autoplay loop >SAMPLE VIDEO<source src="bg.mp4" type="video/mp4">
+        </video>
+        
+        <div id="imageContainer">
+            <div class="imgBox">
+                <p><h2>Uploaded Image</h2></p>
+                <img id="uploadedImage" src="https://media.istockphoto.com/id/931643150/vector/picture-icon.jpg?s=612x612&w=0&k=20&c=St-gpRn58eIa8EDAHpn_yO4CZZAnGD6wKpln9l3Z3Ok=" />
+                <button id="preview" class="bottombtn">Preview</button>
+            </div>
+            <div class="imgBox">
+                <p><h2>Result Image</h2></p>
+                <img id="resultImage" src="https://media.istockphoto.com/id/931643150/vector/picture-icon.jpg?s=612x612&w=0&k=20&c=St-gpRn58eIa8EDAHpn_yO4CZZAnGD6wKpln9l3Z3Ok="/>
+                <button id="downLoad" class="bottombtn">Download</button>
+            </div>
+            
+        </div>
+    </div>
+</div>
+</body>
+    <script src="script.js"></script>
+</body>
+</html>
